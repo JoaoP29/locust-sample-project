@@ -30,10 +30,10 @@ The goal of this project is to demonstrate how to set up and execute performance
 ## Installation
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
-   ```
+```bash
+  git clone https://github.com/your-username/your-repository.git
+  cd your-repository
+```
 2. (Optional but recommended) Create a virtual environment:
   ```bash
   python -m venv venv
