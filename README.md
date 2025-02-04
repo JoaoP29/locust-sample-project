@@ -33,21 +33,28 @@ The goal of this project is to demonstrate how to set up and execute performance
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+   ```
 2. (Optional but recommended) Create a virtual environment:
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
+  ```bash
+  python -m venv venv
+  source venv/bin/activate   # For Linux/Mac
+  venv\Scripts\activate      # For Windows
+  ```
 3. Install the required dependencies:
-pip install locust
-
+  ```bash
+  pip install locust
+  ```
 ## Project Structure
-.
-├── locustfile.reqres.py    # Performance test script for the ReqRes API
-└── README.md
-
+  ```
+  .
+  ├── locustfile.py    # Performance test script for the ReqRes API
+  └── README.md
+  ```
 ## How to Run the Tests
 
 1. Start Locust with the ReqRes Host:
-locust -f locustfile.reqres.py --host https://reqres.in
+  ```bash
+  locust -f locustfile.reqres.py --host https://reqres.in
+  ```
 2. Open your browser and navigate to https://localhost:8089
 3. Configure the number of users and spawn as desired, then start the test.
